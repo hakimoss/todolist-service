@@ -15,10 +15,12 @@
     "jsx": "preserve",
     "incremental": true,
     "baseUrl": ".",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
     "paths": {
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/api/apidoc.js"],
   "exclude": ["node_modules"]
 }
